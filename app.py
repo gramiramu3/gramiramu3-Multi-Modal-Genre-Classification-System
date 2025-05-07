@@ -4,6 +4,7 @@ import torch.nn as nn
 import numpy as np
 import pickle
 from PIL import Image
+import tensorflow as tf 
 from torchvision import models, transforms
 
 # ─────────────────────────── Flask setup ────────────────────────────────
