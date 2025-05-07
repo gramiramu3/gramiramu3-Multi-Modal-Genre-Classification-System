@@ -4,7 +4,7 @@ import torch.nn as nn
 import numpy as np
 import pickle
 from PIL import Image
-import tensorflow as tf 
+from tensorflow.keras.preprocessing.text import Tokenizer
 from torchvision import models, transforms
 
 # ─────────────────────────── Flask setup ────────────────────────────────
