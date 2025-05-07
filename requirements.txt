@@ -15,8 +15,8 @@ numpy==1.24.4
 nltk==3.8.1
 
 # If using any pickled keras-based tokenizer (your error earlier)
-keras==3.0.5
 tensorflow==2.15.0
+keras==2.15.0
 
 # Optional: for model loading or compatibility
 cloudpickle==3.0.0
