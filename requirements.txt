@@ -1,20 +1,24 @@
-# Web framework
 Flask==2.3.2
 gunicorn==21.2.0
 
-# ML & DL
-tensorflow==2.16.1
-keras==3.9.2
+# Torch and vision
 torch==2.2.2
 torchvision==0.17.2
+
+# Image handling
+Pillow==10.2.0
+
+# ML/NLP
 scikit-learn==1.3.2
 joblib==1.3.2
 numpy==1.24.4
-Pillow==10.2.0
-
-# NLP
 nltk==3.8.1
 
-# For pickle compatibility (optional)
+# If using any pickled keras-based tokenizer (your error earlier)
+keras==3.0.5
+tensorflow==2.15.0
+
+# Optional: for model loading or compatibility
 cloudpickle==3.0.0
+
 
