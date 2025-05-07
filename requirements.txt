@@ -1,8 +1,10 @@
 flask
+Flask==2.3.2
+gunicorn==21.2.0
 scikit-learn
 joblib
 numpy
-nltk>=3.8
+nltk
 gunicorn
 Flask
 gunicorn
@@ -11,4 +13,3 @@ numpy
 Pillow
 torchvision
 scikit-learn
-pip freeze > requirements.txt
