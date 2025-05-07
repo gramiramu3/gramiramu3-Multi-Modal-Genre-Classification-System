@@ -1,9 +1,20 @@
+# Web framework
 Flask==2.3.2
 gunicorn==21.2.0
+
+# ML & DL
+tensorflow==2.16.1
+keras==3.9.2
+torch==2.2.2
+torchvision==0.17.2
 scikit-learn==1.3.2
 joblib==1.3.2
 numpy==1.24.4
+Pillow==10.2.0
+
+# NLP
 nltk==3.8.1
-torch==2.0.1
-torchvision==0.15.2
-Pillow==9.5.0
+
+# For pickle compatibility (optional)
+cloudpickle==3.0.0
+
