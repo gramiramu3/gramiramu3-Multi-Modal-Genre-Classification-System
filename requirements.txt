@@ -4,4 +4,11 @@ joblib
 numpy
 nltk>=3.8
 gunicorn
+Flask
+gunicorn
+torch
+numpy
+Pillow
+torchvision
+scikit-learn
 pip freeze > requirements.txt
