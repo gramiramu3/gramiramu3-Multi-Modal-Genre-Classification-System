@@ -16,8 +16,12 @@ DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"✅  Using device: {DEVICE}")
 
 # Load tokenizer and embedding matrix
-with open('models/tokenizer.pickle', 'rb') as f:
-    tokenizer = pickle.load(f)
+from tensorflow.keras.preprocessing.text import tokenizer_from_json
+
+# Load tokenizer from JSON
+with open('models/tokenizer.json', 'r') as f:
+    tokenizer = tokenizer_from_json(f.read())
+
 embedding_matrix = np.load('models/embedding_matrix.npy')
 
 # Safe tokenization wrapper
