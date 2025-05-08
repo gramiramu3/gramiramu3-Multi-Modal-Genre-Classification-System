@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify, render_template
 import torch
 import torch.nn as nn
 import numpy as np
-import pickle
+#import pickle
 from PIL import Image
 from torchvision import models, transforms
 
