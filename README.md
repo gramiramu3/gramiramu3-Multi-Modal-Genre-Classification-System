@@ -138,6 +138,7 @@ docker run -p 5000:5000 genre-classifier
 
 ## 🤝 Acknowledgements
 
+- EAS 510 Basics of AI at UB
 - TMDB Dataset
 - GloVe Embeddings (Stanford)
 - PyTorch, Flask, torchvision
