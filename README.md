@@ -1,4 +1,4 @@
-# 🎬 Multi-Modal Genre Classification System
+# 🎬 Multi-Modal Movie Genre Classification System
 
 This is a Flask-based web application for **multi-label movie genre classification** using both **textual (movie plot)** and **visual (poster image)** inputs. It combines LSTM and ResNet-based models trained on a balanced TMDB dataset across the top 10 genres.
 
